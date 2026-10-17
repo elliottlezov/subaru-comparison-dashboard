@@ -4,10 +4,10 @@ The Subaru Comparison Dashboard utilizes an advanced, multi-source data pipeline
 
 1. Automated Multi-Source Scraper Engine
 Data within this dashboard is generated via a Python automated web-scraping pipeline that aggregates, synthesizes, and normalizes information from premier industry databases:
+  Subaru OEM Repositories: Extracting trim highlights, horsepower, BOXER engine configurations, Symmetrical AWD specs, StarTex upholstery, and EyeSight ADAS packages.
+  NHTSA Office of Defects Investigation (ODI): Decoding 17-digit VINs and mapping historical recall/safety statistics.
+  Edmunds & KBB Actuarial Databases: Synthesizing True Cost to Own (TCO) metrics, including 5-Year Estimated Maintenance, 5-Year Insurance, and projected depreciation/trade-in values.
 
-Subaru OEM Repositories: Extracting trim highlights, horsepower, BOXER engine configurations, Symmetrical AWD specs, StarTex upholstery, and EyeSight ADAS packages.
-NHTSA Office of Defects Investigation (ODI): Decoding 17-digit VINs and mapping historical recall/safety statistics.
-Edmunds & KBB Actuarial Databases: Synthesizing True Cost to Own (TCO) metrics, including 5-Year Estimated Maintenance, 5-Year Insurance, and projected depreciation/trade-in values.
 2. Base64 Encrypted Offline Vault
 To bypass corporate firewalls, restricted dealership Wi-Fi, and dropped connections, all vehicle artwork, brand logos, and multi-source specification arrays are compiled directly into encrypted Base64 strings embedded in the standalone application source code.
 
